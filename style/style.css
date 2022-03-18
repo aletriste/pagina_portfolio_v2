@@ -1,6 +1,6 @@
 .bgimage {
     height:100vh;
-    background: url('img/heroImage.jpg');
+    background: url('/img/heroImage.jpg');
     background-size:cover;
     position:relative;
 }
@@ -18,4 +18,34 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+#contact {
+    background-color: #808080;
+    text-align: center;
+}
+.fa-brands  {
+    color: #000000;
+}
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-brands:hover {
+    color: #008000;
+}
+
+.fa-envelope:hover {
+    color: #008000;
+}
+
+.fa-envelope{
+    color: #000000
 }
