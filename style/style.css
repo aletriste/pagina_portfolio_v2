@@ -49,3 +49,11 @@
 .fa-envelope{
     color: #000000
 }
+
+.edit-container{
+    display: none;
+}
+
+.show { 
+    display: block;
+} 

@@ -10,6 +10,7 @@ function fnValidar()
     if(user.value == "Admin" && pass.value == "123")
     {
         alert("Datos Correctos");
+        showButton()
     }
     else
     {
@@ -36,3 +37,10 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+function showButton(){
+    let list = document.querySelectorAll(".edit-cointainer")
+    for(let i of list){
+        i.classList.add("show")
+    }
+}
