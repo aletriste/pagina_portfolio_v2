@@ -3,6 +3,7 @@ boton.addEventListener('click',fnValidar)
 
 function fnValidar()
 {
+    ev.preventDefault();
     const user =  document.getElementById('user');
     const pass =  document.getElementById('password');
 
@@ -39,7 +40,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 
 function showButton(){
-    let list = document.querySelectorAll(".edit-cointainer")
+    let list = document.querySelectorAll(".edit-container")
     for(let i of list){
         i.classList.add("show")
     }
