@@ -1,7 +1,7 @@
 const boton = document.getElementById('btnEntrar');
 boton.addEventListener('click',fnValidar)
 
-function fnValidar()
+function fnValidar(ev)
 {
     ev.preventDefault();
     const user =  document.getElementById('user');
